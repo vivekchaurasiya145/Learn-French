@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French Teacher App"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="yellow"
+        android:id="@+id/yellowbtn"
+        android:text="YELLOW"
+        android:backgroundTint="#FFEB3B"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:onClick="SayTheColor"
+        tools:ignore="OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="red"
+        android:id="@+id/redbtn"
+        android:text="RED"
+        android:backgroundTint="#DB0614"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:onClick="SayTheColor"
+        tools:ignore="OnClick"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="green"
+        android:onClick="SayTheColor"
+        tools:ignore="OnClick"
+        android:id="@+id/greenbtn"
+        android:text="GREEN"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="yellow"
+        android:id="@+id/bluebtn"
+        android:onClick="SayTheColor"
+        tools:ignore="OnClick"
+        android:text="BLUE"
+        android:backgroundTint="#3F51B5"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="black"
+        android:onClick="SayTheColor"
+        tools:ignore="OnClick"
+        android:id="@+id/blackbtn"
+        android:text="BLACK"
+        android:backgroundTint="#050404"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
